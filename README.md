@@ -1,1 +1,1 @@
-# shit-games
+# semag-tihs
