@@ -30,3 +30,8 @@ body {
     height: 150px;
     border: 10px solid white;
 }
+
+.all {
+    display: flex;
+
+}
