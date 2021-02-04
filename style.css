@@ -92,3 +92,8 @@ html, body {
     background-color: #615c5c;
     cursor: pointer;
 }
+
+.goku {
+    width: 100%;
+    height: auto;
+}
