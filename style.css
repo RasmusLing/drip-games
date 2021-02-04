@@ -46,6 +46,8 @@ html, body {
     width: 400px;
     height: 150px;
     border: 10px solid white;
+    color: white;
+    text-decoration: none;
 }
 
 .level:hover {
