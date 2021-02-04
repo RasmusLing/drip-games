@@ -94,7 +94,6 @@ html, body {
     background-color: #615c5c;
     cursor: pointer;
 }
-<<<<<<< HEAD
 /*Game*/
 .left-side {
     width: 30%;
@@ -127,9 +126,6 @@ html, body {
     border-bottom: 10px solid white ;
     display: flex;
 }
-.drip img {
-    object-fit: ;
-}
 .quit {
     display: flex;
     height: 20%;
@@ -156,10 +152,8 @@ html, body {
     height: 300px;
     width: 150px;
 }
-=======
 
 .goku {
     width: 100%;
     height: auto;
 }
->>>>>>> aae9ef5a66d8b07e6ce3d2af06ad90f70f1a92b5
