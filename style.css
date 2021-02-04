@@ -46,6 +46,8 @@ html, body {
     width: 400px;
     height: 150px;
     border: 10px solid white;
+    text-decoration: none;
+    color: white;
 }
 
 .level:hover {
@@ -91,4 +93,65 @@ html, body {
     transition: all 0.2s;
     background-color: #615c5c;
     cursor: pointer;
+}
+/*Game*/
+.left-side {
+    width: 30%;
+    height: 100%;
+    border-right: 10px solid white;
+    box-shadow: white;
+    color: white;
+    font-size: 50px;
+}
+.right-side {
+    width: 70%;
+    height: 100%;
+}
+.time {
+    height: 20%;
+    border-bottom: 10px solid white ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.flips {
+    height: 20%;
+    border-bottom: 10px solid white ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.drip {
+    height: 40%;
+    border-bottom: 10px solid white ;
+    display: flex;
+}
+.drip img {
+    object-fit: ;
+}
+.quit {
+    display: flex;
+    height: 20%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.quit:hover {
+    background-color: red;
+    transition: ease-in-out;
+}
+.quit a {
+    text-decoration: none;
+    color: white;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+}
+.card {
+    height: 300px;
+    width: 150px;
 }
