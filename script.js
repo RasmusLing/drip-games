@@ -59,7 +59,7 @@ class MixOrMatch {
     }
     startCountdown() {
         return setInterval(() => {
-            this.timeRemaining--;
+            this.timeRemaining++;
             this.timer.innerText = this.timeRemaining;
             if(this.timeRemaining === 0)
                 this.gameOver();
@@ -146,7 +146,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(10000, cards);
+    let game = new MixOrMatch(0, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {

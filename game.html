@@ -17,6 +17,8 @@
         }
         .left{
             flex: 0 0 20%;
+            display: flex;
+            flex-direction: column;
         }
         .right{
             flex:1 0 80%;
@@ -69,7 +71,10 @@
 <body>
 
     <div class="left">
-        <span id="time-remaining">0</span> | <span id="flips">0</span>
+
+        <span id="time-remaining">0</span>
+        <span id="flips">0</span>
+        <a href="levels.html">Back</a>
     </div>
 
     <div class="right">
