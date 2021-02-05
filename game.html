@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap%27');
         :root{
 
             --full:16px;
@@ -13,12 +14,16 @@
             --quarter:calc( var(--full) / 4);
         }
         body{
+            font-family: 'Permanent Marker', cursive;
+            font-size: 5rem;
             display: flex;
+            background-color: #242424;
         }
         .left{
             flex: 0 0 20%;
             display: flex;
             flex-direction: column;
+            color: white;
         }
         .right{
             flex:1 0 80%;
@@ -38,7 +43,7 @@
             flex: 0 0 20%;
             width: 33px;
             height: 200px;
-            background: rgb(253, 253, 116);
+            background: #484848;
             border: 1px solid black;
             border-radius: var(--half);
             cursor: pointer;
@@ -66,14 +71,17 @@
         .visible {
             visibility: visible;
         }
+        a{
+            color: red;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
     <div class="left">
-
-        <span id="time-remaining">0</span>
-        <span id="flips">0</span>
+        <div><span>Time</span>: <span id="time-remaining">0</span></div>
+        <div><span>Flips</span>: <span id="flips">0</span></div>
         <a href="levels.html">Back</a>
     </div>
 
